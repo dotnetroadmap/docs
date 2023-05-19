@@ -31,7 +31,14 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps: () => ({
     titleTemplate: "%s",
-  }),
+  }), banner: {
+    key: '1.0-release',
+    text: (
+      <a href="https://codewithmukesh.substack.com/" target="_blank">
+        🎉 Subscribe to the newsletter to be notified once things are ready →
+      </a>
+    )
+  },
   footer: {
     text: (
       <p className="mt-6 text-xs">
