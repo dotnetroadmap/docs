@@ -15,6 +15,16 @@ export const Logo = () => {
 
 const config: DocsThemeConfig = {
   logo: Logo,
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="dotnetroadmap" />
+      <meta property="og:description" content="#1 Community-Driven Roadmap for .NET Developers." />
+      <meta property="twitter:site" content="@iammukeshm" />
+      <meta name="apple-mobile-web-app-title" content="dotnetroadmap" />
+      <meta name="description" content="#1 Community-Driven Roadmap for .NET Developers." />
+    </>
+  ), 
   project: {
     link: 'https://github.com/dotnetroadmap/docs',
   },
