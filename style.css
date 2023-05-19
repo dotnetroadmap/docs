@@ -1,0 +1,22 @@
+.nx-font-bold {
+    font-weight: 400;
+}
+
+.nx-font-semibold {
+    font-weight: 200;
+}
+
+::-webkit-scrollbar {
+    width: 5px !important;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(185, 185, 185) !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(97, 97, 97) !important;
+}

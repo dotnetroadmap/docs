@@ -1,15 +1,31 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "type": "page",
+    "title": ".NET Roadmap",
+    "display": "hidden",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "docs": {
+    "type": "page",
+    "title": "Docs"
+  },
+  "courses": {
+    "type": "page",
+    "title": "Courses"
+  },
   "about": {
+    "type": "page",
     "title": "About",
-    "type": "page"
+    "theme": {
+      "typesetting": "article"
+    }
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://twitter.com/iammukeshm",
     "newWindow": true
   }
 }
