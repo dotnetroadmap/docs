@@ -22,6 +22,6 @@ jobs:
       - name: Deploy
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/dotnetroadmap/docs.git
-          yarn deploy -- -u "github-actions-bot <support+actions@github.com>"
+          yarn deploy -u "github-actions-bot"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
