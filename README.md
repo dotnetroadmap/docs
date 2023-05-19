@@ -4,7 +4,9 @@ Community driven roadmap for #dotnet developers.
 
 ## Local Development
 
-First, run `pnpm i` to install the dependencies.
+Install pnpm on your machine using `choco install pnpm` in a terminal with Administrator access.
+
+Run `pnpm i` at the root of folder to install the dependencies.
 
 Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
