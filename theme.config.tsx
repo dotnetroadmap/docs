@@ -6,7 +6,7 @@ export const Logo = () => {
   return (
     <span>
       <div style={{ fontSize: 20 }}>dotnet<b>roadmap</b>.dev</div>
-      <div style={{ fontSize: 10 }}>Ultimate Roadmap for <b style={{ color: "#512bd4" }}>#dotnet</b> Developers. 🚀</div>
+      <div style={{ fontSize: 10 }}>Ultimate Roadmap for <b style={{ color: "#512bd4" }}>#dotnet</b> Developers.❤️</div>
       <style jsx>{`
       span {
         padding: 0.5rem 0.5rem 0.5rem 0;
