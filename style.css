@@ -32,9 +32,9 @@ h1 {
 }
 
 .subtitle {
-    font-size: 1.3rem;
-    font-size: min(1.3rem, max(3.5vw, 1.2rem));
-    font-weight: 200;
+    font-size: 1.1rem;
+        font-size: min(1.1rem, max(3.5vw, 1.2rem));
+        font-weight: 400;
     font-feature-settings: initial;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -62,4 +62,7 @@ h1 {
 }
 .nx-text-xs {
     font-size: 1rem;
+}
+.section {
+    padding: 4rem 2rem;
 }

@@ -4,16 +4,20 @@
     "title": ".NET Roadmap",
     "display": "hidden",
     "theme": {
-      "layout": "full"
+      "layout": "raw"
     }
   },
   "docs": {
     "type": "page",
-    "title": "Docs"
+    "title": "Roadmap"
   },
   "courses": {
     "type": "page",
-    "title": "Courses"
+    "title": "Shop"
+  },
+  "jobs": {
+    "type": "page",
+    "title": "Jobs"
   },
   "about": {
     "type": "page",
