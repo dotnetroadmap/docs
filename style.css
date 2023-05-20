@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .nx-font-bold {
     font-weight: 400;
 }
@@ -28,7 +29,6 @@
     color: #512bd4
 }
 
-
 .subtitle {
     font-size: 1.3rem;
     font-size: min(1.3rem, max(3.5vw, 1.2rem));
@@ -51,4 +51,11 @@
     color: currentColor;
     text-decoration: none;
     font-weight: 600;
+}
+.nextra-banner-container {
+    background-color: #512bd4 !important;
+}
+
+.nx-font-medium {
+    font-weight: 300;
 }

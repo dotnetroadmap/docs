@@ -58,9 +58,10 @@ const config: DocsThemeConfig = {
     titleTemplate: "%s",
   }), banner: {
     key: '1.0-release',
+    dismissible: false,
     text: (
       <a href="https://codewithmukesh.substack.com/" target="_blank">
-        🎉 Subscribe to the newsletter to be notified once things are ready →
+        🎉 Join the waiting list →
       </a>
     )
   },
