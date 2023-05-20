@@ -4,7 +4,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 export const Logo = () => {
   return (
-    <span>
+    <span style={{ color: "black" }}>
       <div style={{ fontSize: 20 }}>dotnet<b>roadmap</b>.dev</div>
       <div style={{ fontSize: 10 }}>Ultimate Roadmap for <b>#dotnet</b> Developers.❤️</div>
       <style jsx>{`
@@ -69,6 +69,8 @@ const config: DocsThemeConfig = {
     text: (
       <p className="mt-6 text-xs">
         © {new Date().getFullYear()} dotnetroadmap
+        <br></br>
+        Developed & Maintained by <a href="https://www.codewithmukesh.com/">Mukesh Murugan</a>
       </p>
     ),
   },

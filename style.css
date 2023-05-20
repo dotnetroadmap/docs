@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+    color: #512bd4;
+    text-decoration: none;
+}
 .nx-font-bold {
     font-weight: 400;
 }
