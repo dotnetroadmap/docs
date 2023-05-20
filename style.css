@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .nx-font-bold {
     font-weight: 400;
 }
@@ -19,4 +22,33 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(97, 97, 97) !important;
+}
+
+.dotnet {
+    color: #512bd4
+}
+
+
+.subtitle {
+    font-size: 1.3rem;
+    font-size: min(1.3rem, max(3.5vw, 1.2rem));
+    font-weight: 200;
+    font-feature-settings: initial;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    font-size: 1rem;
+    font-size: min(1rem, max(3.5vw, 1rem));
+    font-weight: 200;
+    font-feature-settings: initial;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.aspnetcore-link {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 600;
 }
