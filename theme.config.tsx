@@ -4,7 +4,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 export const Logo = () => {
   return (
-    <span style={{ color: "black" }}>
+    <span>
       <div style={{ fontSize: 20 }}>dotnet<b>roadmap</b>.dev</div>
       <div style={{ fontSize: 10 }}>Ultimate Roadmap for <b>#dotnet</b> Developers.❤️</div>
       <style jsx>{`
