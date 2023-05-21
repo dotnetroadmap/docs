@@ -1,4 +1,6 @@
 {
   "index": "Introduction",
-  "developer-basics": "Developer Basics"
+  "developer-basics": "Developer Basics",
+  "dotnet-essentials": ".NET Essentials",
+  "solid-principles": "SOLID Principles"
 }
