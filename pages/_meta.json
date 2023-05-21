@@ -7,11 +7,11 @@
       "layout": "raw"
     }
   },
-  "docs": {
+  "learn": {
     "type": "page",
-    "title": "Roadmap"
+    "title": "Learn"
   },
-  "courses": {
+  "shop": {
     "type": "page",
     "title": "Shop"
   },
